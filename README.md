@@ -13,5 +13,5 @@ Files
 - and make sure you have these packages added: Distributed, SlurmClusterManager, ArgCheck, Parameters, Sobol, NLopt, JLD
 
  If you want to use ```run_cluster.jl``` on a cluster, 
- - comment out https://github.com/jwb4335/tiktak_sample_julia/blob/4319d6bd385d33b6807459829e16091412d45e39/run_cluster.jl#L21-24
+ - comment out https://github.com/jwb4335/tiktak_sample_julia/blob/4319d6bd385d33b6807459829e16091412d45e39/run_cluster.jl#L21-L24
  - and uncomment https://github.com/jwb4335/tiktak_sample_julia/blob/4319d6bd385d33b6807459829e16091412d45e39/run_cluster.jl#L18
