@@ -8,6 +8,7 @@ These repositories were referenced extensively
 See also two recent papers that implement a similar version of TikTak:
 - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3896410
 - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3680159
+
 Files 
 - ```tiktak_base.jl```: base code which contains all of the necessary functions to implement the TikTak algorithm
 - ```tiktak_solve.jl```: A wrapper to solve for the global minimum via TikTak
