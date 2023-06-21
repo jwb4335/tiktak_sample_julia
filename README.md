@@ -7,3 +7,5 @@ Files
 - ```run_cluster.jl```: Sample code file to implement TikTak on a simple function (Rosenbrock)
 - ```RUN_algorithm.slurm```: Sample SLURM script to submit job to a SLURM workload manager on a HPC (to be used on linux)
 - ```submit_to_cluster.sh```: shell script to submit RUN_algorithm.slurm
+
+```run_cluster.jl``` 
