@@ -10,3 +10,8 @@ Files
 
 ```run_cluster.jl``` will currently run locally, but
 - you should load in your own environment on lines https://github.com/jwb4335/tiktak_sample_julia/blob/4319d6bd385d33b6807459829e16091412d45e39/run_cluster.jl#L10 and https://github.com/jwb4335/tiktak_sample_julia/blob/4319d6bd385d33b6807459829e16091412d45e39/run_cluster.jl?plain=1#L29
+- and make sure you have these packages added: Distributed, SlurmClusterManager, ArgCheck, Parameters, Sobol, NLopt, JLD
+
+ If you want to use ```run_cluster.jl``` on a cluster, 
+ - comment out https://github.com/jwb4335/tiktak_sample_julia/blob/4319d6bd385d33b6807459829e16091412d45e39/run_cluster.jl#L21-24
+ - and uncomment https://github.com/jwb4335/tiktak_sample_julia/blob/4319d6bd385d33b6807459829e16091412d45e39/run_cluster.jl#L18
