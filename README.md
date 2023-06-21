@@ -8,4 +8,5 @@ Files
 - ```RUN_algorithm.slurm```: Sample SLURM script to submit job to a SLURM workload manager on a HPC (to be used on linux)
 - ```submit_to_cluster.sh```: shell script to submit RUN_algorithm.slurm
 
-```run_cluster.jl``` 
+```run_cluster.jl``` will currently run locally, but
+- you should load in your own environment on lines https://github.com/jwb4335/tiktak_sample_julia/blob/4319d6bd385d33b6807459829e16091412d45e39/run_cluster.jl#L10 and https://github.com/jwb4335/tiktak_sample_julia/blob/4319d6bd385d33b6807459829e16091412d45e39/run_cluster.jl#L29
