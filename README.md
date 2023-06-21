@@ -1,6 +1,10 @@
 # tiktak_sample_julia
 Sample code for running the TikTak algorithm (https://www.fatihguvenen.com/tiktak). The code is specifically designed to be run on a HPC that uses a SLURM workload manager.
 
+These repositories were referenced extensively
+- https://github.com/tpapp/MultistartOptimization.jl/tree/master
+- https://github.com/amckay/TikTak
+
 Files 
 - ```tiktak_base.jl```: base code which contains all of the necessary functions to implement the TikTak algorithm
 - ```tiktak_solve.jl```: A wrapper to solve for the global minimum via TikTak
