@@ -17,6 +17,6 @@ sbatch <<EOT
 #SBATCH -J $2
 									# Job name
 # Run Julia script
-julia tiktak_wrapper.jl 
+julia run_cluster.jl 
 
 EOT
