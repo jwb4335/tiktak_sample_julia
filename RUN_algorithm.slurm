@@ -11,7 +11,7 @@ sbatch <<EOT
 #SBATCH --mem-per-cpu=3G						# 2G seems to work well
 #SBATCH -p common-old                           # Partition
 # #SBATCH --mail-type=ALL                         # Mail alerts?
-# #SBATCH --mail-user=jwb74@duke.edu              # Email to mail to
+# #SBATCH --mail-user="your email here"              # Email to mail to
 #SBATCH -o ""$1".txt"                           # output filename
 #SBATCH -e ""$1".err"                           # error filename
 #SBATCH -J $2
