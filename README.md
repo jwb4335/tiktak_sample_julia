@@ -2,7 +2,7 @@
 Sample code for running the TikTak algorithm (https://www.fatihguvenen.com/tiktak). The code is specifically designed to be run on a HPC that uses a SLURM workload manager.
 
 These repositories were referenced extensively
-- https://github.com/tpapp/MultistartOptimization.jl/tree/master
+- https://github.com/tpapp/MultistartOptimization.jl
 - https://github.com/amckay/TikTak
 
 Files 
